@@ -30,6 +30,6 @@ SOLID Principles Demonstration
   * InvoiceService depends on INotificationService, not directly on EmailNotificationService.
 
 Run the Project
-git clone https://github.com/loldwyer/AccountingDemo_BRC.git
-cd AccountingDemo_BRC
-dotnet run
+* git clone https://github.com/loldwyer/AccountingDemo_BRC.git
+* cd AccountingDemo_BRC
+* dotnet run
