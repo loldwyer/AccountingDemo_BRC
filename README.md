@@ -123,11 +123,13 @@ From the repository root:
 git clone https://github.com/loldwyer/AccountingDemo_BRC.git
 cd AccountingDemo_BRC
 dotnet run
-
-## Recreating the Database (If Needed)
+```
+## Recreating the Database
+```bash
 cd EF_CodeFirst_Demo/EF_CodeFirst_Demo
 dotnet ef migrations add InitialCreate --context BrcContext
 dotnet ef database update --context BrcContext
+```
 
 ## Tools used:
 - .NET CLI
